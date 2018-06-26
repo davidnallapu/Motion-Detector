@@ -29,7 +29,7 @@ while True:
 	#cv2.imshow("Gray frame",gray) #Gray frame better for noisy backgrounds
 	#cv2.imshow("Delta Frame", delta_frame) #Compares the first frame to Gray frame
 	#cv2.imshow("Threshold Frame", thresh_frame)#Threshold kept to detect volume
-	cv2.imshow("Color Frame (Click 'q' to close application)",frame)#COlor frame with rectangle detects motion
+	cv2.imshow("Color Frame (Click 'q' to close application)",frame)#Color frame with rectangle detects motion
 	key=cv2.waitKey(1)
 
 	if key==ord('q'):
